@@ -1,6 +1,6 @@
 package main.java.com.mmiroshnichenko.multithreading;
 
-public class Demo {
+public class SimpleDemo {
     public static void main(String[] args) {
         Foo foo = new Foo();
         new AThread(foo);

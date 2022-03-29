@@ -35,8 +35,6 @@ public class Foo {
             System.out.print("third");
         } catch (InterruptedException e) {
             System.err.println(e);
-        } finally {
-            firstSemaphore.release();
         }
     }
 }
